@@ -153,3 +153,57 @@ body.nav-active {
 ::-webkit-scrollbar-thumb {
     background-color: var(--bg-white);
 }
+
+/* Preloader */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    box-shadow: inset 55vw 0 0 0 var(--bg-white),
+                inset -55vw 0 0 0 var(--bg-white);
+    display: grid;
+    place-items: center;
+    z-index: 10;
+}
+
+.preloader.loaded {
+    transition: 300ms ease 500ms;
+    pointer-events: none;
+    box-shadow: inset 0 0 0 var(--bg-white),
+                inset 0 0 0 var(--bg-white);
+}
+
+.preloader .line {
+    width: 1px;
+    height: 100%;
+    background-color: var(--bg-black);
+    transition: var(--transition-2);
+    animation: loading 1000ms linear forwards;
+}
+
+@keyframes loading {
+    0% {
+        transform: scaleY(0);
+    }
+
+    100% {
+        transform: scaleY(0.3);
+    }
+}
+
+.preloader.loaded .line {
+    animation: loaded 500ms ease linear forwards;
+}
+
+@keyframes loaded {
+    0% {
+        transform: scaleY(0.3);
+    }
+
+    100% {
+        transform: scaleY(1);
+        opacity: 0;
+    }
+}
