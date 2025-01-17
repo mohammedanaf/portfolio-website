@@ -735,3 +735,24 @@ body.nav-active {
     display: grid;
     place-items: center;
 }
+
+/* CTA */
+.cta {
+    border-block: 1px solid var(--border-eerie-black);
+}
+
+.cta .section-title::before {
+    content: "";
+    display: block;
+    background-color: var(--bg-white);
+    width: 60px;
+    height: 30px;
+    border-radius: 30px 30px 0 0;
+    margin-inline: auto;
+    margin-block-end: 15px;
+}
+
+.cta .btn {
+    margin-inline: auto;
+    margin-block-start: 30px;
+}
