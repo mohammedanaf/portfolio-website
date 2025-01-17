@@ -852,3 +852,82 @@ body.nav-active {
 .profile-card .card-subtitle {
     font-size: var(--fontSize-10);
 }
+
+/* Contact */
+.contact .section-title {
+    font-size: var(--fontSize-1);
+    margin-block-end: 25px;
+}
+
+.contact-content {
+    display: grid;
+    gap: 60px;
+}
+
+.contact-form .input-field {
+    height: 50px;
+    padding-block: 12px;
+    margin-block-end: 20px;
+    color: var(--text-white);
+    outline: none;
+    border-block-end: 1px solid var(--border-eerie-black);
+    transition: border-color var(--transition-1)
+}
+
+.contact-form .input-field::placeholder {
+    color: var(--text-light-gray);
+}
+
+.contact-form .input-field:focus {
+    border-color: var(--border-light-gray);
+}
+
+textarea.input-field {
+    min-height: 165px;
+    resize: none;
+}
+
+.contact-form .btn {
+    margin-block-start: 30px;
+}
+
+.contact .map {
+    width: 100%;
+    filter: grayscale(1);
+}
+
+.contact-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact-item:not(:last-child) {
+    padding-block-end: 30px;
+    border-block-end: 1px solid var(--border-eerie-black);
+    margin-block-end: 30px;
+}
+
+/* Fix overflowing image */
+.about-banner {
+    width: 65%;
+}
+
+/* Fix overflowing elements */
+.wrap-text {
+    overflow-wrap: break-word;
+    width: 70%;
+}
+
+/* Resize overflowing image and elements */
+@media (min-width: 425px) {
+    .about-banner {
+        width: 100%;
+    }
+
+    .wrap-text {
+        overflow-wrap: normal;
+        width: 100%;
+    }
+}
