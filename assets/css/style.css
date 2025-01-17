@@ -909,6 +909,10 @@ textarea.input-field {
     margin-block-end: 30px;
 }
 
+.contact-item .title {
+    color: var(--text-light-gray);
+}
+
 /* Fix overflowing image */
 .about-banner {
     width: 65%;
@@ -930,4 +934,31 @@ textarea.input-field {
         overflow-wrap: normal;
         width: 100%;
     }
+}
+
+/* Footer */
+.footer {
+    border: 1px solid var(--border-eerie-black);
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.copyright {
+    flex-grow: 1;
+    font-family: var(--fontFamily-recoleta);
+}
+
+.back-top-btn .span {
+    display: none;
+}
+
+.back-top-btn {
+    color: var(--text-white);
+    padding: 32px 16px;
+    border-inline: 1px solid var(--border-eerie-black);
 }
