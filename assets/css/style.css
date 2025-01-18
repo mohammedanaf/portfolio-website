@@ -962,3 +962,9 @@ textarea.input-field {
     padding: 32px 16px;
     border-inline: 1px solid var(--border-eerie-black);
 }
+
+/* Custom cursor */
+.cursor-dot,
+.cursor-outline {
+    display: none;
+}
