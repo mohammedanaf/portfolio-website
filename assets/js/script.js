@@ -88,3 +88,37 @@ const filterContent = function() {
 }
 
 addEventOnElements(tabBtns, "click", filterContent);
+
+// Custom cursor
+const cursors = document.querySelectorAll("[data-cursor]");
+const hoveredElements = [...document.querySelectorAll["button"], ...document.querySelectorAll["a"]];
+
+window.addEventListener("mousemove", function(event) {
+
+    const posX = event.clientX;
+    const posY = event.clientY;
+
+    // Cursor dot position
+    cursors[0].style.left = `${posX}px`;
+    cursors[0].style.top = `${posY}px`;
+
+    // Cursor outline position
+    setTimeout(function() {
+        cursors[1].style.left = `${posX}px`;
+        cursors[1].style.top = `${posY}px`;
+    }, 80);
+});
+
+// Add hovered class when hovered upon elements
+addEventOnElements(hoveredElements, "mouseover", function() {
+    for(let i = 0 ; i < cursors.length ; i++) {
+        cursors[i].classList.add("hovered");
+    }
+});
+
+// Remove hovered class when hovered out of elements
+addEventOnElements(hoveredElements, "mouseout", function() {
+    for(let i = 0 ; i < cursors.length ; i++) {
+        cursors[i].classList.remove("hovered");
+    }
+});
