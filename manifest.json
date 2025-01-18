@@ -1,0 +1,16 @@
+{
+  "name": "Mohammed Anaf - Your Vision, My Code",
+  "short_name": "Mohammed Anaf's Portfolio",
+  "description": "Frontend developer specialized in creating beautiful, responsive websites. Passionate about turning ideas into seamless, user-friendly web experiences. Explore my portfolio of innovative digital solutions.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#000",
+  "theme_color": "#fff",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
