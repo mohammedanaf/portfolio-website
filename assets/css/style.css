@@ -690,11 +690,11 @@ body.nav-active {
     height: 100%;
 }
 
-.interview-card {
+.showcase-card {
     position: relative;
 }
 
-.interview-card .btn {
+.showcase-card .btn {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -706,24 +706,24 @@ body.nav-active {
     color: var(--text-smoky-black);
 }
 
-.interview-card .btn::before,
-.interview-card .btn::after {
+.showcase-card .btn::before,
+.showcase-card .btn::after {
     border-radius: inherit;
 }
 
-.interview-card .btn::before {
+.showcase-card .btn::before {
     background-color: var(--bg-white);
 }
 
-.interview-card .btn:is(:hover, :focus-visible) {
+.showcase-card .btn:is(:hover, :focus-visible) {
     color: var(--text-white)
 }
 
-.exhibition-card {
+.journey-card {
     position: relative;
 }
 
-.exhibition-card .card-icon {
+.journey-card .card-icon {
     position: absolute;
     top: 30px;
     right: 30px;
@@ -1042,7 +1042,7 @@ textarea.input-field {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .interview-card {
+    .showcase-card {
         max-width: max-content;
         margin-inline: auto;
     }
@@ -1115,7 +1115,7 @@ textarea.input-field {
         border-inline-start: 1px solid var(--border-eerie-black);
     }
 
-    :is([data-tab-content="interview"], [data-tab-content="exhibition"]) .grid-list {
+    :is([data-tab-content="showcase"], [data-tab-content="journey"]) .grid-list {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -1262,7 +1262,7 @@ textarea.input-field {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    :is([data-tab-content="interview"], [data-tab-content="awwards"], [data-tab-content="exhibition"]) .grid-list {
+    :is([data-tab-content="showcase"], [data-tab-content="awwards"], [data-tab-content="journey"]) .grid-list {
         grid-template-columns: repeat(3, 1fr);
     }
 

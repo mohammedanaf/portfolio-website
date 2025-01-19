@@ -95,8 +95,8 @@ addEventOnElements(tabBtns, "click", filterContent);
 // Custom cursor
 const cursors = document.querySelectorAll("[data-cursor]");
 const hoveredElements = [
-  ...document.querySelectorAll["button"],
-  ...document.querySelectorAll["a"],
+  ...document.querySelectorAll("button"),
+  ...document.querySelectorAll("a"),
 ];
 
 window.addEventListener("mousemove", function (event) {
