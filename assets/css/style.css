@@ -604,6 +604,10 @@ body.nav-active {
     opacity: 0;
 }
 
+.service-card .inactive-link {
+    pointer-events: none;
+}
+
 /* About */
 .tab-container {
     border: 1px solid var(--border-eerie-black);
@@ -911,29 +915,6 @@ textarea.input-field {
 
 .contact-item .title {
     color: var(--text-light-gray);
-}
-
-/* Fix overflowing image */
-.about-banner {
-    width: 65%;
-}
-
-/* Fix overflowing elements */
-.wrap-text {
-    overflow-wrap: break-word;
-    width: 70%;
-}
-
-/* Resize overflowing image and elements */
-@media (min-width: 425px) {
-    .about-banner {
-        width: 100%;
-    }
-
-    .wrap-text {
-        overflow-wrap: normal;
-        width: 100%;
-    }
 }
 
 /* Footer */
