@@ -4,6 +4,7 @@ import Hero from "./sections/Hero"
 import Showcase from "./sections/Showcase"
 import FeatureCards from "./sections/FeatureCards"
 import Experience from "./sections/Experience"
+import TechStack from "./sections/TechStack"
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <LogoShowcase />
       <FeatureCards />
       <Experience />
+      <TechStack />
     </>
   )
 }
