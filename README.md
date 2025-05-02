@@ -14,7 +14,9 @@ This site showcases my work, skills, and experience as a developer and creator. 
     
 -   **Styling**: Tailwind CSS
     
--   **Hosting**: Vercel
+-   **Hosting**: Netlify
+
+-   **Domain**: Namecheap
     
 -   **Other Tools**: Three.js, React Three Fiber, Drei, GSAP
     
