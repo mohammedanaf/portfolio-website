@@ -20,18 +20,18 @@ const navLinks = [
 const words = [
     { text: "Ideas", imgPath: "/images/ideas.svg" },
     { text: "Concepts", imgPath: "/images/concepts.svg" },
-    { text: "Designs", imgPath: "/images/designs.svg" },
+    { text: "Design", imgPath: "/images/design.svg" },
     { text: "Code", imgPath: "/images/code.svg" },
     { text: "Ideas", imgPath: "/images/ideas.svg" },
     { text: "Concepts", imgPath: "/images/concepts.svg" },
-    { text: "Designs", imgPath: "/images/designs.svg" },
+    { text: "Design", imgPath: "/images/design.svg" },
     { text: "Code", imgPath: "/images/code.svg" },
 ];
 
 const counterItems = [
-    { value: 15, suffix: "+", label: "Years of Experience" },
-    { value: 200, suffix: "+", label: "Satisfied Clients" },
-    { value: 108, suffix: "+", label: "Completed Projects" },
+    { value: 4, suffix: "+", label: "Years of Experience" },
+    { value: 15, suffix: "+", label: "Happy Clients" },
+    { value: 20, suffix: "+", label: "Completed Projects" },
     { value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
 
@@ -91,98 +91,52 @@ const abilities = [
 
 const techStackImgs = [
     {
-        name: "React Developer",
-        imgPath: "/images/logos/react.png",
+        name: "HTML Developer",
+        imgPath: "/images/logos/html.svg",
     },
-    {
-        name: "Python Developer",
-        imgPath: "/images/logos/python.svg",
-    },
-    {
-        name: "Backend Developer",
-        imgPath: "/images/logos/node.png",
-    },
-    {
-        name: "Interactive Developer",
-        imgPath: "/images/logos/three.png",
-    },
-    {
-        name: "Project Manager",
-        imgPath: "/images/logos/git.svg",
-    },
-];
-
-const techStackIcons = [
     {
         name: "React Developer",
-        modelPath: "/models/react_logo-transformed.glb",
-        scale: 1,
-        rotation: [0, 0, 0],
+        imgPath: "/images/logos/react.svg",
     },
     {
-        name: "Python Developer",
-        modelPath: "/models/python-transformed.glb",
-        scale: 0.8,
-        rotation: [0, 0, 0],
+        name: "Next.js Developer",
+        imgPath: "/images/logos/nextjs.svg",
     },
     {
-        name: "Backend Developer",
-        modelPath: "/models/node-transformed.glb",
-        scale: 5,
-        rotation: [0, -Math.PI / 2, 0],
+        name: "Wordpress Developer",
+        imgPath: "/images/logos/wordpress.svg",
     },
     {
-        name: "Interactive Developer",
-        modelPath: "/models/three.js-transformed.glb",
-        scale: 0.05,
-        rotation: [0, 0, 0],
-    },
-    {
-        name: "Project Manager",
-        modelPath: "/models/git-svg-transformed.glb",
-        scale: 0.05,
-        rotation: [0, -Math.PI / 4, 0],
+        name: "Wix Designer",
+        imgPath: "/images/logos/wix.svg",
     },
 ];
 
 const expCards = [
     {
         review:
-            "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-        imgPath: "/images/exp1.png",
-        logoPath: "/images/logo1.png",
+            "Anaf led AI training initiatives with clarity and precision. His leadership and adaptability across model systems made him a key asset to the team.",
+        imgPath: "/images/phase-infotech.png",
+        logoPath: "/images/nebe-fav.png",
+        title: "Prompt Engineer",
+        date: "August 2024 - December 2024",
+        responsibilities: [
+            "Trained AI models using RLHF by prompting and scoring outputs based on clarity, accuracy, and usefulness, then creating high-quality reference answers for training.",
+            "Built clean and responsive web apps using HTML, CSS, JavaScript, React.js, and Tailwind CSS, with a focus on real-world usability and performance.",
+            "Led and trained developer teams across different AI projects, managing workflows and helping them adapt to various model systems.",
+        ],
+    },
+    {
+        review:
+            "Anaf brought creativity and technical skill to frontend projects, delivering clean, responsive interfaces with React and Tailwind that consistently improved user experience.",
+        imgPath: "/images/innovius-software.png",
+        logoPath: "/images/innovius-software-fav.png",
         title: "Frontend Developer",
-        date: "January 2023 - Present",
+        date: "December 2023 - March 2024",
         responsibilities: [
-            "Developed and maintained user-facing features for the Hostinger website.",
-            "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-            "Optimized web applications for maximum speed and scalability.",
-        ],
-    },
-    {
-        review:
-            "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-        imgPath: "/images/exp2.png",
-        logoPath: "/images/logo2.png",
-        title: "Full Stack Developer",
-        date: "June 2020 - December 2023",
-        responsibilities: [
-            "Led the development of Docker's web applications, focusing on scalability.",
-            "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-            "Contributed to open-source projects that were used with the Docker ecosystem.",
-        ],
-    },
-    {
-        review:
-            "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-        imgPath: "/images/exp3.png",
-        logoPath: "/images/logo3.png",
-        title: "React Native Developer",
-        date: "March 2019 - May 2020",
-        responsibilities: [
-            "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-            "Improved app performance and user experience through code optimization and testing.",
-            "Coordinated with the product team to implement features based on feedback.",
+            "Developed responsive websites using HTML5, CSS3, Bootstrap, and JavaScript, ensuring seamless user experiences and optimized performance across devices.",
+            "Built dynamic Single Page Applications (SPAs) with React.js and Tailwind CSS, focusing on fast UI development and efficient styling.",
+            "Managed version control and project workflows using Git, ensuring smooth collaboration and deployment from development to production.",
         ],
     },
 ];
@@ -207,66 +161,66 @@ const testimonials = [
         name: "Esther Howard",
         mentions: "@estherhoward",
         review:
-            "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+            "Coming Soon! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque architecto magnam asperiores quod. Praesentium, architecto?",
         imgPath: "/images/client1.png",
     },
     {
         name: "Wade Warren",
         mentions: "@wadewarren",
         review:
-            "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+            "Coming Soon! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae deleniti doloremque aliquam magni, officia deserunt animi quia ut ad corporis assumenda repellendus magnam. Aspernatur, quod!",
         imgPath: "/images/client3.png",
     },
     {
         name: "Guy Hawkins",
         mentions: "@guyhawkins",
         review:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+            "Coming Soon! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatum sunt excepturi qui officiis, doloribus quisquam totam minima architecto quod.",
         imgPath: "/images/client2.png",
     },
     {
         name: "Marvin McKinney",
         mentions: "@marvinmckinney",
         review:
-            "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+            "Coming Soon! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae deleniti doloremque aliquam magni, officia deserunt animi quia ut ad corporis assumenda repellendus magnam.",
         imgPath: "/images/client5.png",
     },
     {
         name: "Floyd Miles",
         mentions: "@floydmiles",
         review:
-            "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+            "Coming Soon! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque architecto magnam asperiores quod. Praesentium, architecto?",
         imgPath: "/images/client4.png",
     },
     {
         name: "Albert Flores",
         mentions: "@albertflores",
         review:
-            "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+            "Coming Soon! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatum sunt excepturi qui officiis, doloribus quisquam totam minima architecto quod. Aspernatur, quod! Praesentium, architecto?",
         imgPath: "/images/client6.png",
     },
 ];
 
 const socialImgs = [
     {
-        name: "insta",
-        url: "https://www.instagram.com/",
-        imgPath: "/images/insta.png",
-    },
-    {
-        name: "fb",
-        url: "https://www.facebook.com/",
-        imgPath: "/images/fb.png",
-    },
-    {
-        name: "x",
-        url: "https://www.x.com/",
-        imgPath: "/images/x.png",
+        name: "github",
+        url: "https://github.com/mohammedanaf",
+        imgPath: "/images/github.svg",
     },
     {
         name: "linkedin",
-        url: "https://www.linkedin.com/",
-        imgPath: "/images/linkedin.png",
+        url: "https://linkedin.com/in/mohammed-anaf",
+        imgPath: "/images/linkedin.svg",
+    },
+    {
+        name: "discord",
+        url: "https://discord.com/users/1285203411402227746",
+        imgPath: "/images/discord.svg",
+    },
+    {
+        name: "x",
+        url: "https://x.com/PsycoticMonster",
+        imgPath: "/images/x.svg",
     },
 ];
 
@@ -279,7 +233,6 @@ export {
     expLogos,
     testimonials,
     socialImgs,
-    techStackIcons,
     techStackImgs,
     navLinks,
 };

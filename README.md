@@ -1,12 +1,48 @@
-# React + Vite
+# 🌐 Mohammed Anaf Master — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the source code repository for my personal portfolio website: [mohammedanafmaster.me](https://mohammedanafmaster.me)
 
-Currently, two official plugins are available:
+This site showcases my work, skills, and experience as a developer and creator. It's built to reflect who I am professionally while providing a clean, responsive, and accessible user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🔗 [Visit Portfolio](https://mohammedanafmaster.me)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+-   **Framework**: React 19
+    
+-   **Styling**: Tailwind CSS
+    
+-   **Hosting**: Vercel
+    
+-   **Other Tools**: Three.js, React Three Fiber, Drei, GSAP
+    
+
+## ✨ Features
+
+- Animated 3D models and reveal animations
+
+- Realistic lighting and shadows
+
+- GSAP-powered scroll interactions
+
+- Responsive design with Tailwind CSS and Flexbox/Grid
+
+- Micro Interactions
+
+- Multi-section layout (About, Projects, Contact)
+
+- Mobile optimized 3D experience
+
+## 🧑‍💻 Contributing
+
+While this is a personal project, you're welcome to fork it for inspiration or create pull requests for improvements.
+
+## 📬 Contact
+
+Feel free to reach out via [LinkedIn](https://linkedin.com/in/mohammed-anaf) or through the contact section on the site.
+
+----------
+
+**Built with ❤️ by Mohammed Anaf Master**

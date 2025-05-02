@@ -49,17 +49,17 @@ const Contact = () => {
                             <form ref={formRef} onSubmit={handleSubmit} className="w-full flex flex-col gap-7">
                                 <div>
                                     <label htmlFor="name">Name</label>
-                                    <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} placeholder="Your Name" required />
+                                    <input type="text" id="name" name="name" autoComplete="off" value={formData.name} onChange={handleChange} placeholder="Your Name" required />
                                 </div>
 
                                 <div>
                                     <label htmlFor="email">Email</label>
-                                    <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} placeholder="Your Email Address" required />
+                                    <input type="email" id="email" name="email" inputMode="email" autoComplete="off" value={formData.email} onChange={handleChange} placeholder="Your Email Address" required />
                                 </div>
 
                                 <div>
                                     <label htmlFor="message">Message</label>
-                                    <textarea rows="5" id="message" name="message" value={formData.message} onChange={handleChange} placeholder="Your Message" required />
+                                    <textarea rows="5" id="message" name="message" autoComplete="off" value={formData.message} onChange={handleChange} placeholder="Your Message" required />
                                 </div>
 
                                 <button type="submit" disabled={loading}>
@@ -69,7 +69,7 @@ const Contact = () => {
                                             {loading ? "Sending..." : "Send Message"}
                                         </p>
                                         <div className="arrow-wrapper">
-                                            <img src="/images/arrow-down.svg" alt="arrow" />
+                                            <img src="/images/arrow-right.svg" alt="arrow" />
                                         </div>
                                     </div>
                                 </button>
