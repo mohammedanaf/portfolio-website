@@ -22,7 +22,7 @@ const Showcase = () => {
     }, []);
 
     return (
-        <section id="work" ref={sectionRef} className="app-showcase">
+        <section id="work" ref={sectionRef} className="app-showcase pb-0">
             <div className="w-full">
                 <div className="showcaselayout">
                     {/* LEFT */}
@@ -31,8 +31,10 @@ const Showcase = () => {
                             <img src="/images/project1.png" alt="Ryde" />
                         </div>
                         <div className="text-content">
-                            <h2>On-Demand Ride Made Simple with a Powerful, User-Friendly App called Ryde</h2>
-                            <p className="text-white-50 md:text-xl">An app built with React Native, Expo, & Tailwind CSS for a fast, user-friendly experience.</p>
+                            <a href="" className="hover:text-[#D9ECFF]">
+                                <h2>On-Demand Ride Made Simple with a Powerful, User-Friendly App called Ryde</h2>
+                            </a>
+                            {/* <p className="text-white-50 md:text-xl">An app built with React Native, Expo, & Tailwind CSS for a fast, user-friendly experience.</p> */}
                         </div>
                     </div>
 
@@ -42,14 +44,17 @@ const Showcase = () => {
                             <div className="image-wrapper bg-[#ffefdb]">
                                 <img src="/images/project2.png" alt="Library Management Platform" />
                             </div>
-                            <h2>Library Management Platform</h2>
-
+                            <a href="" className="hover:text-[#D9ECFF]">
+                                <h2>Library Management Platform</h2>
+                            </a>
                         </div>
                         <div className="project" ref={project3Ref}>
                             <div className="image-wrapper bg-[#ffe7db]">
                                 <img src="/images/project3.png" alt="YC Directory" />
                             </div>
-                            <h2>YC Directory - A Startup Showcase App</h2>
+                            <a href="" className="hover:text-[#D9ECFF]">
+                                <h2>YC Directory - A Startup Showcase App</h2>
+                            </a>
                         </div>
                     </div>
                 </div>

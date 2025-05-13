@@ -158,47 +158,47 @@ const expLogos = [
 
 const testimonials = [
     {
-        name: "Esther Howard",
-        mentions: "@estherhoward",
+        name: "Rahul Lalwani",
+        company: "Stealth",
         review:
-            "Coming Soon! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque architecto magnam asperiores quod. Praesentium, architecto?",
+            "Absolutely brilliant service! Anaf was incredibly helpful, responsive, and truly understood my needs. The final outcome was perfect. Couldn't be happier with the experience!",
         imgPath: "/images/client1.png",
     },
+    // {
+    //     name: "Wade Warren",
+    //     company: "@wadewarren",
+    //     review:
+    //         "Coming Soon! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae deleniti doloremque aliquam magni, officia deserunt animi quia ut ad corporis assumenda repellendus magnam. Aspernatur, quod!",
+    //     imgPath: "/images/client3.png",
+    // },
     {
-        name: "Wade Warren",
-        mentions: "@wadewarren",
+        name: "Krishal Modi",
+        company: "Project Tree",
         review:
-            "Coming Soon! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae deleniti doloremque aliquam magni, officia deserunt animi quia ut ad corporis assumenda repellendus magnam. Aspernatur, quod!",
-        imgPath: "/images/client3.png",
-    },
-    {
-        name: "Guy Hawkins",
-        mentions: "@guyhawkins",
-        review:
-            "Coming Soon! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatum sunt excepturi qui officiis, doloribus quisquam totam minima architecto quod.",
+            "A highly professional developer who provides quick solutions with immediate response. Delivers clean, optimized code with great efficiency. Always reliable, fast, and attentive—an excellent choice for any project requiring real-time support and high-quality results.",
         imgPath: "/images/client2.png",
     },
+    // {
+    //     name: "Marvin McKinney",
+    //     company: "@marvinmckinney",
+    //     review:
+    //         "Coming Soon! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae deleniti doloremque aliquam magni, officia deserunt animi quia ut ad corporis assumenda repellendus magnam.",
+    //     imgPath: "/images/client5.png",
+    // },
     {
-        name: "Marvin McKinney",
-        mentions: "@marvinmckinney",
+        name: "Vansh Mehta",
+        company: "@floydmiles",
         review:
-            "Coming Soon! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae deleniti doloremque aliquam magni, officia deserunt animi quia ut ad corporis assumenda repellendus magnam.",
-        imgPath: "/images/client5.png",
-    },
-    {
-        name: "Floyd Miles",
-        mentions: "@floydmiles",
-        review:
-            "Coming Soon! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque architecto magnam asperiores quod. Praesentium, architecto?",
+            "Anaf did an outstanding job! Very professional, great communication, and delivered exactly what I needed on time. Highly recommend!",
         imgPath: "/images/client4.png",
     },
-    {
-        name: "Albert Flores",
-        mentions: "@albertflores",
-        review:
-            "Coming Soon! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatum sunt excepturi qui officiis, doloribus quisquam totam minima architecto quod. Aspernatur, quod! Praesentium, architecto?",
-        imgPath: "/images/client6.png",
-    },
+    // {
+    //     name: "Albert Flores",
+    //     company: "@albertflores",
+    //     review:
+    //         "Coming Soon! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatum sunt excepturi qui officiis, doloribus quisquam totam minima architecto quod. Aspernatur, quod! Praesentium, architecto?",
+    //     imgPath: "/images/client6.png",
+    // },
 ];
 
 const socialImgs = [
