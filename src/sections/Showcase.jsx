@@ -28,11 +28,11 @@ const Showcase = () => {
                     {/* LEFT */}
                     <div className="first-project-wrapper" ref={project1Ref}>
                         <div className="image-wrapper">
-                            <img src="/images/project1.png" alt="Ryde" />
+                            <img src="/images/project1.png" loading="lazy" alt="The Fire Alchemist" />
                         </div>
                         <div className="text-content">
-                            <a href="" className="hover:text-[#D9ECFF]">
-                                <h2>On-Demand Ride Made Simple with a Powerful, User-Friendly App called Ryde</h2>
+                            <a href="https://christophercoey.com" className="hover:text-[#D9ECFF]">
+                                <h2>Where Game Design Meets Web Sorcery &mdash; The Fire Alchemist</h2>
                             </a>
                             {/* <p className="text-white-50 md:text-xl">An app built with React Native, Expo, & Tailwind CSS for a fast, user-friendly experience.</p> */}
                         </div>
@@ -41,19 +41,19 @@ const Showcase = () => {
                     {/* RIGHT */}
                     <div className="project-list-wrapper overflow-hidden">
                         <div className="project" ref={project2Ref}>
-                            <div className="image-wrapper bg-[#ffefdb]">
-                                <img src="/images/project2.png" alt="Library Management Platform" />
+                            <div className="image-wrapper bg-gradient-to-r from-[#2a1f35] via-[#322640] to-[#2a1f35]">
+                                <img src="/images/project2.png" loading="lazy" alt="Serval Films - Stop Motion" />
                             </div>
-                            <a href="" className="hover:text-[#D9ECFF]">
-                                <h2>Library Management Platform</h2>
+                            <a href="https://servalfilms.com" className="hover:text-[#D9ECFF]">
+                                <h2>Handmade Frames, Timeless Stories &mdash; Serval Films</h2>
                             </a>
                         </div>
                         <div className="project" ref={project3Ref}>
-                            <div className="image-wrapper bg-[#ffe7db]">
-                                <img src="/images/project3.png" alt="YC Directory" />
+                            <div className="image-wrapper bg-gradient-to-r from-[#252525] via-[#2b2b2b] to-[#252525]">
+                                <img src="/images/project3.png" loading="lazy" alt="The FlexFlow - Where Marketing Flows" />
                             </div>
-                            <a href="" className="hover:text-[#D9ECFF]">
-                                <h2>YC Directory - A Startup Showcase App</h2>
+                            <a href="https://theflexflow.in" className="hover:text-[#D9ECFF]">
+                                <h2>Where Marketing Flows &mdash; The FlexFlow</h2>
                             </a>
                         </div>
                     </div>

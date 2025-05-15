@@ -38,36 +38,47 @@ const counterItems = [
 const logoIconsList = [
     {
         imgPath: "/images/logos/company-logo-1.png",
+        name: "Shopify logo",
     },
     {
         imgPath: "/images/logos/company-logo-2.png",
+        name: "Microsoft logo",
     },
     {
         imgPath: "/images/logos/company-logo-3.png",
+        name: "Adidas logo",
     },
     {
         imgPath: "/images/logos/company-logo-4.png",
+        name: "Docker logo",
     },
     {
         imgPath: "/images/logos/company-logo-5.png",
+        name: "Hostinger logo",
     },
     {
         imgPath: "/images/logos/company-logo-6.png",
+        name: "Adobe logo",
     },
     {
         imgPath: "/images/logos/company-logo-7.png",
+        name: "Appwrite logo",
     },
     {
         imgPath: "/images/logos/company-logo-8.png",
+        name: "NVIDIA logo",
     },
     {
         imgPath: "/images/logos/company-logo-9.png",
+        name: "Vercel logo",
     },
     {
         imgPath: "/images/logos/company-logo-10.png",
+        name: "Linear logo",
     },
     {
         imgPath: "/images/logos/company-logo-11.png",
+        name: "Loom logo",
     },
 ];
 
@@ -93,22 +104,27 @@ const techStackImgs = [
     {
         name: "HTML Developer",
         imgPath: "/images/logos/html.svg",
+        alt: "HTML logo",
     },
     {
         name: "React Developer",
         imgPath: "/images/logos/react.svg",
+        alt: "React logo",
     },
     {
         name: "Next.js Developer",
         imgPath: "/images/logos/nextjs.svg",
+        alt: "Next.js logo",
     },
     {
         name: "Wordpress Developer",
         imgPath: "/images/logos/wordpress.svg",
+        alt: "Wordpress logo",
     },
     {
         name: "Wix Designer",
         imgPath: "/images/logos/wix.svg",
+        alt: "Wix logo",
     },
 ];
 
@@ -119,6 +135,7 @@ const expCards = [
         imgPath: "/images/phase-infotech.png",
         logoPath: "/images/nebe-fav.png",
         title: "Prompt Engineer",
+        company: "Phase Infotech",
         date: "August 2024 - December 2024",
         responsibilities: [
             "Trained AI models using RLHF by prompting and scoring outputs based on clarity, accuracy, and usefulness, then creating high-quality reference answers for training.",
@@ -132,27 +149,13 @@ const expCards = [
         imgPath: "/images/innovius-software.png",
         logoPath: "/images/innovius-software-fav.png",
         title: "Frontend Developer",
+        company: "Innovius Software",
         date: "December 2023 - March 2024",
         responsibilities: [
             "Developed responsive websites using HTML5, CSS3, Bootstrap, and JavaScript, ensuring seamless user experiences and optimized performance across devices.",
             "Built dynamic Single Page Applications (SPAs) with React.js and Tailwind CSS, focusing on fast UI development and efficient styling.",
             "Managed version control and project workflows using Git, ensuring smooth collaboration and deployment from development to production.",
         ],
-    },
-];
-
-const expLogos = [
-    {
-        name: "logo1",
-        imgPath: "/images/logo1.png",
-    },
-    {
-        name: "logo2",
-        imgPath: "/images/logo2.png",
-    },
-    {
-        name: "logo3",
-        imgPath: "/images/logo3.png",
     },
 ];
 
@@ -187,7 +190,7 @@ const testimonials = [
     // },
     {
         name: "Vansh Mehta",
-        company: "@floydmiles",
+        company: "Vardaan Smart Solutions",
         review:
             "Anaf did an outstanding job! Very professional, great communication, and delivered exactly what I needed on time. Highly recommend!",
         imgPath: "/images/client4.png",
@@ -203,22 +206,22 @@ const testimonials = [
 
 const socialImgs = [
     {
-        name: "github",
+        name: "Github",
         url: "https://github.com/mohammedanaf",
         imgPath: "/images/github.svg",
     },
     {
-        name: "linkedin",
+        name: "LinkedIn",
         url: "https://linkedin.com/in/mohammed-anaf",
         imgPath: "/images/linkedin.svg",
     },
     {
-        name: "discord",
+        name: "Discord",
         url: "https://discord.com/users/1285203411402227746",
         imgPath: "/images/discord.svg",
     },
     {
-        name: "x",
+        name: "X",
         url: "https://x.com/PsycoticMonster",
         imgPath: "/images/x.svg",
     },
@@ -230,7 +233,6 @@ export {
     logoIconsList,
     counterItems,
     expCards,
-    expLogos,
     testimonials,
     socialImgs,
     techStackImgs,

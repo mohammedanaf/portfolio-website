@@ -32,7 +32,7 @@ const TechStack = () => {
                             <div className="tech-card-animated-bg" />
                             <div className="tech-card-content">
                                 <div className="tech-icon-wrapper">
-                                    <img src={icon.imgPath} />
+                                    <img src={icon.imgPath} loading="lazy" alt={icon.alt} />
                                 </div>
 
                                 <div className="w-full padding-x">

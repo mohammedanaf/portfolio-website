@@ -64,7 +64,7 @@ const Experience = () => {
                                 <div className="xl:w-2/6">
                                     <ReviewCard card={card} index={index}>
                                         <div>
-                                            <img src={card.imgPath} alt={card.title} />
+                                            <img src={card.imgPath} loading="lazy" alt={card.company} />
                                         </div>
                                     </ReviewCard>
                                 </div>
@@ -78,13 +78,13 @@ const Experience = () => {
 
                                         <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
                                             <div className="timeline-logo">
-                                                <img src={card.logoPath} alt="logo" />
+                                                <img src={card.logoPath} loading="lazy" alt="Rounded logo" />
                                             </div>
 
                                             <div>
-                                                <h1 className="font-semibold text-3xl">
+                                                <h3 className="font-semibold text-3xl">
                                                     {card.title}
-                                                </h1>
+                                                </h3>
                                                 <p className="my-5 text-white-50">
                                                     📅 {card.date}
                                                 </p>

@@ -13,7 +13,7 @@ const Testimonials = () => {
                         <ReviewCard card={{ review }}>
                             <div className="flex items-center gap-3">
                                 <div>
-                                    <img src={imgPath} width="46" height="46" className="rounded-full" alt={name} />
+                                    <img src={imgPath} loading="lazy" width="46" height="46" className="rounded-full" alt={name} />
                                 </div>
 
                                 <div>
