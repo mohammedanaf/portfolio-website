@@ -161,11 +161,11 @@ const expCards = [
 
 const testimonials = [
     {
-        name: "Rahul Lalwani",
-        company: "Stealth",
+        name: "Christopher Coey",
+        company: "The Fire Alchemist",
         review:
-            "Absolutely brilliant service! Anaf was incredibly helpful, responsive, and truly understood my needs. The final outcome was perfect. Couldn't be happier with the experience!",
-        imgPath: "/images/client1.png",
+            "Mohammed was professional, communicative, and delivered top-notch work. He revamped my website and portfolio flawlessly, incorporating every change (even picky minor tweaks) with care and precision. I highly recommend him for any of your website needs!",
+        imgPath: "/images/client1.jpg",
     },
     // {
     //     name: "Wade Warren",
